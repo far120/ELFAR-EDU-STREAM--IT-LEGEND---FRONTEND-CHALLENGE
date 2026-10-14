@@ -51,6 +51,7 @@ export interface CourseSection {
   id: string;
   title: string;
   subtitle?: string; 
+  duration?: string;
   lessons: Lesson[];
 }
 
