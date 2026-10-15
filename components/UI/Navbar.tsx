@@ -14,7 +14,7 @@ export default function Navbar() {
   const currentUser = {
     name: 'Mostafa ElFar',
     role: 'Enrolled Student',
-    avatar: 'https://drive.google.com/drive/u/0/my-drive?lfhs=2',
+    avatar: '/Mostafa Mahmoud .JPEG',
     email: 'mostafa.m.elfar@gmail.com',
   };
 
