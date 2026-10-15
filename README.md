@@ -1,30 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ELFAR EDU STREAM - Online Learning Platform
 
-## Getting Started
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-emerald?style=for-the-badge&logo=vercel)](https://elfar-edu-stream-it-legend-frontend.vercel.app/)
 
-First, run the development server:
+> 🌐 **Live URL:** [https://elfar-edu-stream-it-legend-frontend.vercel.app](https://elfar-edu-stream-it-legend-frontend.vercel.app/)
 
+A modern, interactive e-learning web application built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**. Designed to deliver a smooth and engaging course experience with video lectures, practical materials, live assessments, and gamified progress tracking.
+
+---
+
+## 🚀 Key Features
+
+- **Interactive Video Player:**
+  - YouTube video embedding with custom controls.
+  - Sticky mini-player on mobile scroll.
+  - Theater/Wide mode & fullscreen support.
+
+- **Course Curriculum & Materials:**
+  - Structured sections with collapsible accordion navigation.
+  - Supports multiple lesson types: Video, Overview, PDF, Quiz, and Practical Exercises.
+  - Integrated PDF viewer popup with direct preview, open in new tab, and download support.
+
+- **Live Quiz / Exam Engine:**
+  - Real-time countdown timer with automated submission.
+  - Interactive multiple-choice questions.
+  - Instant scoring with pass/fail evaluation and dynamic progress saving.
+
+- **Progress & Gamification:**
+  - Real-time progress bar reflecting completed lectures and passed exams.
+  - Contextual motivational quotes dynamically changing based on current progress percentage.
+  - Community leaderboard modal showing top students and current ranking.
+
+- **Interactive Learning Tools:**
+  - "Ask a Question" modal for student inquiries and direct course discussions.
+  - Clean responsive layout with dark mode support.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 16 (App Router)
+- **UI & State:** React 19, TypeScript
+- **Styling:** Tailwind CSS v4
+- **Icons:** Lucide React
+
+---
+
+## 💻 Getting Started
+
+### 1. Clone & Install Dependencies
+```bash
+git clone https://github.com/far120/ELFAR-EDU-STREAM--IT-LEGEND---FRONTEND-CHALLENGE.git
+cd courses-task
+npm install
+```
+
+### 2. Run the Development Server
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Build for Production
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```text
+├── app/                  # Next.js App Router (pages, layout, routing)
+├── components/           # Modular React components
+│   ├── UI/               # Global layout (Navbar, Footer)
+│   └── courses/          # Course listing, details, and modals
+│       └── CourseDetailes/
+│           ├── Models/   # Modals (Exam, PDF viewer, Ask question, Leaderboard)
+│           └── ...       # VideoPlayer, Curriculum, Materials, Comments
+├── data/                 # Mock course data, lessons, and leaderboard
+├── types/                # TypeScript interfaces & types
+└── public/               # Static assets & course materials
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👤 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Mostafa Elfar**
+- GitHub: [@far120](https://github.com/far120)
+- LinkedIn: [Mostafa Mahmoud Elfar](https://www.linkedin.com/in/mostafa-mahmoud-elfar-6a67732b5)

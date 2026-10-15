@@ -20,14 +20,32 @@ export const metadata: Metadata = {
   description: "An interactive, modern course learning platform with progress tracking, assessments, and community leaderboard.",
 };
 
-export default function RootLayout({children,}: {
+export default function RootLayout({ children, }: {
   children: React.ReactNode;
 }) {
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                const saved = localStorage.getItem('theme');
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (saved === 'dark' || (!saved && prefersDark)) {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900 dark:bg-zinc-950 dark:text-zinc-100 transition-colors">
         <Suspense fallback={<div className="h-16 w-full border-b border-gray-200 dark:border-zinc-800" />}>
           <Navbar />

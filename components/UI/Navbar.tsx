@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { BookOpen, Bell, Menu, X, ChevronDown, CheckCircle2, Home } from 'lucide-react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -70,8 +71,10 @@ export default function Navbar() {
           </nav>
         </div>
 
-        {/* Right Section: Notification & Static Logged-in User */}
-        <div className="hidden sm:flex items-center gap-4">
+        {/* Right Section: Theme Toggle, Notification & Static Logged-in User */}
+        <div className="hidden sm:flex items-center gap-3">
+          <ThemeToggle />
+
           <button
             type="button"
             aria-label="Notifications"
@@ -111,8 +114,10 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile menu button */}
+        {/* Mobile menu & Theme toggle */}
         <div className="flex items-center gap-2 sm:hidden">
+          <ThemeToggle />
+
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
