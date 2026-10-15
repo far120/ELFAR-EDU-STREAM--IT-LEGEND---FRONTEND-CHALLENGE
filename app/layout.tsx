@@ -29,7 +29,7 @@ export default function RootLayout({ children, }: {
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <head>
+      {/* <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -45,7 +45,7 @@ export default function RootLayout({ children, }: {
             `,
           }}
         />
-      </head>
+      </head> */}
       <body className="min-h-full flex flex-col bg-white text-gray-900 dark:bg-zinc-950 dark:text-zinc-100 transition-colors">
         <Suspense fallback={<div className="h-16 w-full border-b border-gray-200 dark:border-zinc-800" />}>
           <Navbar />
