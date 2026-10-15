@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "EduStream - Online Courses & Course Player",
+  title: "ELFAR EDU STREAM - Online Courses & Course Player",
   description: "An interactive, modern course learning platform with progress tracking, assessments, and community leaderboard.",
 };
 

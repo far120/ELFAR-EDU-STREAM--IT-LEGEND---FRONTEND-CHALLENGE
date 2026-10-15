@@ -33,8 +33,8 @@ export default function Navbar() {
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white shadow-md shadow-emerald-500/20">
               <BookOpen className="h-5 w-5" />
             </div>
-            <span className="bg-gradient-to-r from-gray-950 to-gray-700 bg-clip-text text-transparent dark:from-white dark:to-zinc-300 font-extrabold">
-              Edu<span className="text-emerald-600 dark:text-emerald-400">Stream</span>
+            <span className="bg-gradient-to-r from-gray-950 to-gray-700 bg-clip-text text-transparent dark:from-white dark:to-zinc-300 font-extrabold tracking-tight">
+              ELFAR <span className="text-emerald-600 dark:text-emerald-400">EDU STREAM</span>
             </span>
           </Link>
 

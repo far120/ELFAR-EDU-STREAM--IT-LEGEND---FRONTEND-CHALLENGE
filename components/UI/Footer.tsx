@@ -21,8 +21,8 @@ export default function Footer() {
               <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white shadow-md shadow-emerald-500/20">
                 <BookOpen className="h-4 w-4" />
               </div>
-              <span className="bg-gradient-to-r from-gray-950 to-gray-700 bg-clip-text text-transparent dark:from-white dark:to-zinc-300 font-extrabold">
-                Edu<span className="text-emerald-600 dark:text-emerald-400">Stream</span>
+              <span className="bg-gradient-to-r from-gray-950 to-gray-700 bg-clip-text text-transparent dark:from-white dark:to-zinc-300 font-extrabold tracking-tight">
+                ELFAR <span className="text-emerald-600 dark:text-emerald-400">EDU STREAM</span>
               </span>
             </Link>
             
@@ -152,7 +152,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 border-t border-gray-200 pt-8 dark:border-zinc-800 sm:flex sm:items-center sm:justify-between">
           <p className="text-xs text-gray-500 dark:text-zinc-500 flex items-center gap-1">
-            © {currentYear} EduStream Platform. Crafted with <span className="text-emerald-600 dark:text-emerald-400">Mostafa ELFAR</span> for learners.
+            © {currentYear} ELFAR EDU STREAM Platform. Crafted by <span className="text-emerald-600 dark:text-emerald-400 font-semibold">Mostafa ELFAR</span> for learners.
           </p>
 
           <div className="mt-4 flex space-x-6 sm:mt-0 text-xs">

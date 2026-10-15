@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, BookOpen, Clock, Trophy, Sparkles, CheckCircle2 } from "lucide-react";
+import { ArrowRight, BookOpen, Clock, Trophy, Sparkles, CheckCircle2, Zap, GraduationCap } from "lucide-react";
 import { getAllCourses } from "@/data/courses";
 import CourseCard from "@/components/courses/CourseCard";
 
@@ -15,7 +15,7 @@ export default function Home() {
           <div className="mx-auto max-w-3xl text-center">
             {/* Top Pill Badge */}
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50 px-3.5 py-1.5 text-xs font-semibold text-emerald-800 dark:border-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-              <Sparkles className="h-3.5 w-3.5" />
+              <GraduationCap className="h-3.5 w-3.5" />
               <span>Interactive Learning Platform</span>
             </div>
 
@@ -77,7 +77,7 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl dark:text-white">
-            Why Learn With EduStream?
+            Why Learn With ELFAR EDU STREAM?
           </h2>
           <p className="mt-2 text-sm text-gray-600 sm:text-base dark:text-zinc-400">
             Everything you need to go from beginner to job-ready professional.

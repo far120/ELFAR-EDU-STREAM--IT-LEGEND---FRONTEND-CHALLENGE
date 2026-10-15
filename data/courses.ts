@@ -46,7 +46,7 @@ export const COURSES: Course[] = [
             isCompleted: true,
             isCurrent: true,
             progressPercentage: 63,
-            videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+            videoUrl: 'https://youtu.be/A2cQuWZFa3M?si=a3_jQ3J5yebgDzzo',
             content: 'Welcome to Starting SEO as your Home Based Business! In this introductory lesson, Edward walks you through what to expect, how to navigate the materials, and how to set up your workflow.'
           },
           {
@@ -151,7 +151,7 @@ export const COURSES: Course[] = [
             duration: '15 MINUTES',
             isLocked: false,
             isCompleted: false,
-            pdfUrl: '/materials/seo-starter-guide.pdf',
+            pdfUrl: 'https://drive.google.com/file/d/10Zh5kkMhva7sV69K7AD4GCRx-Jk1174d/view?usp=sharing',
             pdfTitle: 'Home-Based SEO Agency Blueprint & Reference Materials'
           },
           {
@@ -216,7 +216,7 @@ export const COURSES: Course[] = [
             duration: '20 MINUTES',
             isLocked: true,
             isCompleted: false,
-            pdfUrl: '/materials/storytelling-seo-personas.pdf',
+            pdfUrl: '/materials/seo-starter-guide.pdf',
             pdfTitle: 'Audience Personas & Keyword Matrix'
           },
           {
@@ -384,24 +384,24 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-high',
-          author: 'م. علي شاهين',
-          quote: 'عاش يا بطل! أداء استثنائي وقريب جدًا من القمة.. كمل بنفس العزيمة، مفيش مستحيل! 🔥💪',
+          author: 'Eng. Ali Shahin',
+          quote: 'Great job, champion! Exceptional performance and very close to the top. Keep up the same determination—nothing is impossible! 🔥💪',
           emoji: '🔥',
           minProgress: 80,
           maxProgress: 100
         },
         {
           id: 'quote-mid',
-          author: 'م. علي شاهين',
-          quote: 'عاش يا صديقي! قطعت شوط كبير وداخل في الجد، خليك مكمل ومنتظم والنتيجة هتبهرك! 🚀👏',
+          author: 'Eng. Ali Shaheen',
+          quote: 'Great job, champion! You\'ve made significant progress and are now entering the core of the course. Stay consistent, and you\'ll be amazed by the results! 🚀👏',
           emoji: '🚀',
           minProgress: 40,
           maxProgress: 79
         },
         {
           id: 'quote-low',
-          author: 'م. علي شاهين',
-          quote: 'بداية موفقة يا بطل! أهم حاجة الاستمرارية وخطوة بخطوة هتوصل لهدفك.. ركّز وتوكّل على الله! ✨🎯',
+          author: 'Eng. Ali Shaheen',
+          quote: 'A great start, champion! The most important thing is consistency, and step by step, you will reach your goal. Focus and trust in God! ✨🎯',
           emoji: '✨',
           minProgress: 0,
           maxProgress: 39
@@ -537,24 +537,24 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-sarah-high',
-          author: 'م. علي شاهين',
-          quote: 'عاش يا وحش! الكود بتاعك بيتكلم عنك، كمل للنهائيات وافتخر باللي بتعمله! 🔥💻',
+          author: 'Eng. Ali Shahin',
+          quote: 'Great job, champion! The code speaks for itself—keep going until the end and be proud of what you do! 🔥💻',
           emoji: '💻',
           minProgress: 80,
           maxProgress: 100
         },
         {
           id: 'quote-sarah-mid',
-          author: 'م. علي شاهين',
-          quote: 'عاش يا هندسة! كل ما تفهم المعمارية أكتر هتلاقي البرمجة ممتعة وسلسة.. استمر! 🚀',
+          author: 'Eng. Ali Shahin',
+          quote: 'Great job, champion! Every concept you master brings you closer to advanced architectural understanding. Keep the momentum going! 🚀👏',
           emoji: '🚀',
           minProgress: 40,
           maxProgress: 79
         },
         {
           id: 'quote-sarah-low',
-          author: 'م. علي شاهين',
-          quote: 'البداية دايمًا محتاجة صبر! ركز في الأساسيات والنتائج هتفرحك قريب جدًا.. 🌟',
+          author: 'Eng. Ali Shahin',
+          quote: 'The start always requires patience! Focus on the fundamentals and the results will surely please you soon. 🌟🎯',
           emoji: '🌟',
           minProgress: 0,
           maxProgress: 39
@@ -636,8 +636,8 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-fig-low',
-          author: 'م. علي شاهين',
-          quote: 'ابدأ الرحلة يا مبدع! التصميم شغف وتفاصيل، وكل شاشة هتصممها هتقربك من الاحتراف.. 🎨✨',
+          author: 'Eng. Ali Shahin',
+          quote: 'Start the journey, creative! Design is passion and detail, and every screen you design will bring you closer to professionalism. 🎨✨',
           emoji: '🎨',
           minProgress: 0,
           maxProgress: 100
@@ -710,8 +710,8 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-py-high',
-          author: 'م. علي شاهين',
-          quote: 'ألف مبروك التخرج يا عبقري! أتممت الكورس بنجاح باهر ودا إنجاز كبير تستحق تفرح بيه! 🎓🎉',
+          author: 'Eng. Ali Shahin',
+          quote: 'Congratulations on graduating, genius! You have successfully completed the course with brilliant results—a major achievement you deserve to celebrate! 🎓🎉',
           emoji: '🎓',
           minProgress: 100,
           maxProgress: 100
@@ -785,8 +785,8 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-rn-mid',
-          author: 'م. علي شاهين',
-          quote: 'عاش يا وحش الموبايل! قطعت 75% وباقي خطوات بسيطة على تسليم تطبيقك الحقيقي! 📱🔥',
+          author: 'Eng. Ali Shahin',
+          quote: 'Great job, mobile champion! You\'ve completed 75%—only a few steps left to launch your real app! 📱🔥',
           emoji: '📱',
           minProgress: 70,
           maxProgress: 99
@@ -867,8 +867,8 @@ export const COURSES: Course[] = [
       motivationalQuotes: [
         {
           id: 'quote-dev-low',
-          author: 'م. علي شاهين',
-          quote: 'عالم الـ DevOps مليان تحديات ممتعة! ابدأ الرحلة بتركيز وثبات والنتيجة هتكون قوية جدًا.. ☁️🚀',
+          author: 'Eng. Ali Shahin',
+          quote: 'The world of DevOps is full of exciting challenges! Start the journey with focus and consistency, and the result will be very strong. ☁️🚀',
           emoji: '☁️',
           minProgress: 0,
           maxProgress: 100
