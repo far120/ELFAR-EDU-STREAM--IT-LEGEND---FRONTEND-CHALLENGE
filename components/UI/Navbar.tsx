@@ -12,10 +12,10 @@ export default function Navbar() {
 
   // Static logged-in user data
   const currentUser = {
-    name: 'Alex Johnson',
+    name: 'Mostafa ElFar',
     role: 'Enrolled Student',
-    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80',
-    email: 'alex.johnson@example.com',
+    avatar: 'https://drive.google.com/drive/u/0/my-drive?lfhs=2',
+    email: 'mostafa.m.elfar@gmail.com',
   };
 
   const isHomeActive = pathname === '/';
